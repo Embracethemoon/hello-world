@@ -8,6 +8,6 @@ Feel free to read the codes and learn.
 
 But I don't suggest copying the codes without understanding how they exactly work.
 
-That is not a good strategy for competitive programming at least.
+That is not a good strategy, for competitive programming at least.
 
-Have fun!
+Have fun and enjoy coding!
