@@ -1,4 +1,4 @@
-### Meeting 2
+### Meeting 1
 
 #### Variable and Expression:
 
@@ -126,12 +126,12 @@ int main(){
 }
 ```
 
-Input
+Input:
 ```
 
 ```
 
-Output
+Output:
 ```
 1.5
 x
@@ -157,7 +157,7 @@ int main(){
 
 Input:
 ```
-Space Bar
+Space Travel
 ```
 
 Output:
@@ -168,7 +168,7 @@ Space
 Input:
 ```
 Space
-Bar
+Travel
 ```
 
 Output:
@@ -178,9 +178,32 @@ Space
 
 From the test, we can discover that, `cin` will stop reading the string when encounter a space bar(or a new line)
 
+Therefore, when we want to read the entire line at one time, we can use`getline`
+
+```cpp
+#include <iostream>
+using namespace std;
+int main(){
+	string str;
+	getline(cin, str);
+	cout << str << endl;
+	return 0;
+}
+```
+
+Input:
+```
+Hello World
+```
+
+Output:
+```
+Hello World
+```
+
 What if we want to print a number for 10 times?
 
-Writing cout for 10 times is too much work for us.
+Writing 10 `cout` is too much work for us.
 
 ```cpp
 #include <iostream>
@@ -274,3 +297,78 @@ You can complete all questions except for the last one.
 The last one is not solvable for now, you can read the question and I will talk about it in the next meeting.
 
 This is not mandatory, but completing them can help you have a better understanding of today's material.
+
+#### Some Extra Tips:
+
+when we want to output a double value under certain precision(3 digits after the decimal point), we can use `printf`
+
+```cpp
+#include <iostream>
+using namespace std;
+int main(){
+	double a;
+	cin >> a;
+	printf("%.3lf\n", a);
+	cout << a << endl;
+}
+```
+
+Input:
+```
+4.999999
+```
+
+Output:
+```
+4.999
+4.999999
+```
+
+Also, integer type has a upperbound, when we want to store a value which is greater than the maximum of integer type, it will cause integer overflow.
+
+In C++, we can use long long
+
+```cpp
+#include <iostream>
+using namespace std;
+int main(){
+	int a;
+	cin >> a;
+	cout << a << endl;
+}
+```
+
+Input:
+```
+10000000000
+```
+
+Output:
+```
+2147483647
+```
+
+`2147483647` is the maximum value for integer and long int in C++
+
+so when we want to store a greater value (± 9.22 · $10 ^{18} $), we use long long int
+
+```cpp
+#include <iostream>
+using namespace std;
+int main(){
+	// long long stands for long long int in default
+	long long num;
+	cin >> num;
+	cout << num << endl;
+}
+```
+
+Input:
+```
+10000000000
+```
+
+Output:
+```
+10000000000
+```
