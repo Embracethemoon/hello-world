@@ -4,6 +4,8 @@
 
 Variables can be described as boxes which store values in them.
 
+[Run Codes](https://ideone.com/ZloVkH)
+
 ```cpp
 #include <iostream>
 using namespace std;
@@ -20,6 +22,8 @@ Output:
 ```
 
 In C++, we can write some simple expressions.
+
+[Run Codes](https://ideone.com/78n5jQ)
 ```cpp
 #include <iostream>
 using namespace std;
@@ -43,6 +47,7 @@ In C++, we use `cin` and `cout` to read user's input and print output to the scr
 
 `cin` for reading input, and `cout` for printing output
 
+[Run Codes](https://ideone.com/Wl9tFt)
 ```cpp
 // Example 1
 #include <iostream>
@@ -72,6 +77,8 @@ In C++, we can use`if` and `else` to create logical conditioning.
 For example, we want to output b when a equals 10, otherwise, we output -1
 
 We can do it through the following codes
+
+[Run Codes](https://ideone.com/hI6rUz)
 ```cpp
 #include <iostream>
 using namespace std;
@@ -115,6 +122,8 @@ Also mind that char use single quote mark `char c = 'x';` while string uses doub
 
 In C++, we use `endl`to start a new line when we are printing output
 
+
+[Run Codes](https://ideone.com/Vnd28n)
 ```cpp
 #include <iostream>
 using namespace std;
@@ -144,6 +153,7 @@ When there is a space bar in the string, can we still read the string as normal?
 
 Have a test and see how it works.
 
+[Run Codes Online](https://ideone.com/RXz4RA)
 ```cpp
 #include <iostream>
 using namespace std;
@@ -180,6 +190,7 @@ From the test, we can discover that, `cin` will stop reading the string when enc
 
 Therefore, when we want to read the entire line at one time, we can use`getline`
 
+[Run Codes](https://ideone.com/urxodn)
 ```cpp
 #include <iostream>
 using namespace std;
@@ -205,6 +216,7 @@ What if we want to print a number for 10 times?
 
 Writing 10 `cout` is too much work for us.
 
+[Run Codes](https://ideone.com/Dyl0BJ)
 ```cpp
 #include <iostream>
 using namespace std;
@@ -313,6 +325,8 @@ int main(){
 }
 ```
 
+(Keep in mind that some compilers might automatically round the value up to 5.000)
+
 Input:
 ```
 4.999999
@@ -328,6 +342,7 @@ Also, integer type has a upperbound, when we want to store a value which is grea
 
 In C++, we can use long long
 
+[Run Codes](https://ideone.com/fqM23N)
 ```cpp
 #include <iostream>
 using namespace std;
@@ -352,6 +367,7 @@ Output:
 
 so when we want to store a greater value (± 9.22 · $10 ^{18} $), we use long long int
 
+[Run Codes](https://ideone.com/pqnXBX)
 ```cpp
 #include <iostream>
 using namespace std;
