@@ -34,27 +34,25 @@ Therefore, practice is an essential part of competitive programming.
 
 ## Training Plan
 
-|  #   |                 Category                 |                         Topic                          | Tasks(P for Practice) |
-| :--: | :--------------------------------------: | :----------------------------------------------------: | :-------------------: |
-|  1   | **Part 1 - Introduction to Programming** |                           -                            |           -           |
-|  2   |           Programming Language           | Variables and Expressions，Input, Output, Conditioning |           P           |
-|  3   |           Programming Language           |                         Loops                          |           P           |
-|  4   |                 Concept                  |                    Arrays, Strings                     |           P           |
-|  5   |                 Concept                  |                       Functions                        |           P           |
-|  6   |                 Concept                  |          Structs, Class, Pointers, Reference           |           P           |
-|  7   |                Techniques                |                 STL, Useful Functions                  |           P           |
-|  8   |     **Part 2 - Introduction to CP**      |           Fun Contest, Conclusion to Part 1            |           -           |
-|  9   |             Data Structures              |                  Stack, Queue, Deque                   |           P           |
-|  10  |                Algorithms                |             Complete Search, Optimization              |           P           |
-|  11  |                Algorithms                |                       Recursion                        |           P           |
-|  12  |             Data Structures              | Linked List, the Adjacency Matrix, the Adjacency List  |           P           |
-|  13  |                Algorithms                |                   Depth-First Search                   |           P           |
-|  14  |                Algorithms                |                  Breadth-First Search                  |           P           |
-|  15  |                Algorithms                |          Memorization and Dynamic Programming          |           P           |
-|  16  |             Data Structures              |                   Tree, Binary Tree                    |           P           |
-|  17  |             Data Structures              |                Union-Find Disjoint Sets                |           P           |
-|  18  |           More Advanced Topics           |      A quick look at Graph Theory and Mathematics      |           P           |
-|  19  |             End of the Year              |                    Virtual Contest                     |           -           |
+|  #   |       Category       |                           Topic                            | Tasks(P for Practice) |
+| :--: | :------------------: | :--------------------------------------------------------: | :-------------------: |
+|  1   | Programming Language | Variables, Expressions, Input, Output, Conditioning, Loops |           P           |
+|  2   | Programming Language |                       Arrays, String                       |           P           |
+|  3   | Programming Language |               Functions, Structs, Reference                |           P           |
+|  4   | Programming Language |                   STL, Useful Functions                    |           P           |
+|  5   |    Contest Tricks    |               Techniques, Preparation for CP               |           P           |
+|  6   |      Algorithms      |                         Recursion                          |           P           |
+|  7   |   Data Structures    |                        Stack, Queue                        |           P           |
+|  8   |      Algorithms      |                     Depth First Search                     |           P           |
+|  9   |      Algorithms      |                    Breadth First Search                    |           P           |
+|  10  |      Algorithms      |                           Greedy                           |           P           |
+|  11  |      Algorithms      |            Memorization and Dynamic Programming            |           P           |
+|  12  |   Data Structures    |                     Tree, Binary Tree                      |           P           |
+|  13  |   Data Structures    |                  Priority Queue and Heap                   |           P           |
+|  14  |   Data Structures    |                     Binary Search Tree                     |           P           |
+|  15  |   Data Structures    |                Disjoint Set (or Union-Find)                |           P           |
+|  16  |      Algorithms      |                      Storing a Graph                       |           P           |
+|  17  |      Algorithms      |                       Shortest Path                        |           P           |
 
 ## Coding Style
 
